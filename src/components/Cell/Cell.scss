@@ -1,0 +1,18 @@
+@import '../variables.scss';
+
+.Cell {
+    width: $cell_size;
+    height: $cell_size;
+}
+
+.Odd {
+    background-color: #d28c45;
+}
+
+.Even {
+    background-color: #ffcf9f;
+}
+
+.possible {
+    background-color: red;
+}
